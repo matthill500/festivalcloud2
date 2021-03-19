@@ -15,6 +15,11 @@ export default new Router({
     },
     /////FESTIVALS/////
     {
+      path: "/register",
+      name: "register_index",
+      component: () => import("./views/Register.vue")
+    },
+    {
       path: "/festivals",
       name: "festivals_index",
       component: () => import("./views/festivals/Index.vue")
